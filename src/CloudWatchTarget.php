@@ -1,6 +1,6 @@
 <?php
 
-namespace andmemasin\log\target\cloudwatch;
+namespace tonisormisson\log\target\cloudwatch;
 
 use Aws\CloudWatchLogs\CloudWatchLogsClient;
 use Exception;

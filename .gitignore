@@ -1,4 +1,6 @@
 !.github
 .*
 vendor/*
+composer.lock
+composer.phar
 
