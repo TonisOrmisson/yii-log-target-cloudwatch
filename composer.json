@@ -1,0 +1,46 @@
+{
+  "name": "tonisormisson/yii-log-target-cloudwatch",
+  "type": "yii2-extension",
+  "license":"MIT",
+  "description": "Yii 3 log target for AWS CloudWatch",
+  "keywords": [
+    "Yii", "log", "target", "AWS", "CloudWatch"
+  ],
+  "authors": [
+    {
+      "name": "Tõnis Ormisson",
+      "email": "tonis@andmemasin.eu"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.0.4",
+    "yiisoft/log": "^2.0",
+    "aws/aws-sdk-php": "^3.91"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.8"
+  },
+  "config": {
+    "platform": {
+      "php": "8.0.4"
+    }
+  },
+
+  "autoload": {
+    "psr-4": {
+      "tonisormisson\\log\\target\\cloudwatch": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
