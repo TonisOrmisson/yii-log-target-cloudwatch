@@ -6,5 +6,3 @@ parameters:
         - src
     excludePaths:
         - 'tests'
-    bootstrapFiles:
-        - stan_autoload.php
