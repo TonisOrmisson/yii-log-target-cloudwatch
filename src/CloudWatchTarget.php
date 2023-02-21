@@ -31,6 +31,9 @@ class CloudWatchTarget extends Target
 
         foreach ($this->getMessages() as $key => $message) {
             $time = round($message->context('time', $defaultLogTime));
+            if(strlen(strval($time)) == 10) {
+                $time = $time * 1000;
+            }
 
             $data = [
                 'message' => $message->message(),
