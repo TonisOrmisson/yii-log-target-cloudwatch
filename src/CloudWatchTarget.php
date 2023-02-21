@@ -30,7 +30,7 @@ class CloudWatchTarget extends Target
         $defaultLogTime = round(microtime(true) * 1000);
 
         foreach ($this->getMessages() as $key => $message) {
-            $time = $message->context('time', $defaultLogTime);
+            $time = round($message->context('time', $defaultLogTime));
 
             $data = [
                 'message' => $message->message(),
