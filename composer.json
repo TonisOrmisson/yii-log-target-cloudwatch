@@ -1,6 +1,6 @@
 {
   "name": "tonisormisson/yii-log-target-cloudwatch",
-  "type": "yii2-extension",
+  "type": "yii-extension",
   "license":"MIT",
   "description": "Yii 3 log target for AWS CloudWatch",
   "keywords": [
